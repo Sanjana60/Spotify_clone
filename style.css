@@ -1,79 +1,89 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(12, 19, 33);
-    /* background-color: aliceblue; */
-}
-
-
-.Alan img{
-
-    position: absolute;
-    right: 500px;
-    top: 0px;
-}
-
-#container{
-
-    background-color: rgb(17, 23, 39);
-    height: 100vh;
-    width: 50vh;
-    position: relative;
-}
-
-#container h1{
-
-    color: azure;
-    position: absolute;
-    top: 80px;
-    left: 80px;
-    font-size: 100px;
-    font-family: 'Poppins', sans-serif;
-}
-#container ul {
-    /* background-color: rgb(17, 23, 39); */
-    list-style-type: circle;
-    color: 	white;
-    position: absolute;
-    top: 380px;
-    left: 80px;
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
-
-  }
-
-  .last {
-    /* background-color: rgb(17, 23, 39); */
-    list-style-type: circle;
-    color: 	grey;
-    position: absolute;
-    top: 160px;
-    left: 80px;
-    font-size: 80px;
-    font-family: 'Poppins', sans-serif;
-
-  }
-
-  .final1{
     
-    position: absolute;
-    top: 1400px;
-    color: aliceblue;
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
-  }
+}
 
-  .final2{
-    position: absolute;
-    top: 1725px;
-    color: aliceblue;
+.main{
+
     display: flex;
+    flex-direction: row;
+    background-color: rgb(12, 19, 33);
+}
+
+.rowleft{
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(17, 23, 39);
+    /* background-color: red; */
+    width: 23vw;
+    height: 100vh;
+}
+
+
+.rowright{
+    color: white;
+}
+
+.rowleft h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1{
+
+    padding-top: 40px;
+} 
+
+ul{
+    list-style-position: outside;
+    padding-left: 20px;
+    
+}
+
+li{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: grey;
+    list-style-type: circle;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .section2{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ .part1{
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    padding-left: 50px;
-    font-size: 60px;
+    justify-content: space-between;
+ }
+
+ .inside{
+
+    display: flex;
+    flex-direction: column;
+ }
+
+ .author{
+
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+ }
+
+ .song{
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-  }
+    text-overflow: ellipsis;
+    width: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+ }
