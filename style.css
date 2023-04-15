@@ -53,3 +53,27 @@
     font-family: 'Poppins', sans-serif;
 
   }
+
+  .final1{
+    
+    position: absolute;
+    top: 1400px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .final2{
+    position: absolute;
+    top: 1725px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
