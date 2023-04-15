@@ -1,6 +1,6 @@
 const parentDiv = document.getElementById('section2');
-
-for(let i=0; i<3; i++) {
+let songs = [{'name':"Faded","author":"Alan Walker"},{'name':"Fadederr","author":"Alan"}]
+for(let i=0; i<2; i++) {
   const childDiv = document.createElement('div');
   childDiv.className = 'part1';
   
@@ -11,7 +11,7 @@ for(let i=0; i<3; i++) {
   
   const img = document.createElement('img');
   img.src = 'images/1.jpg';
-  img.alt = 'On My Way';
+  img.alt = songs[i].name;
   img.style.height = '50px';
   childDiv.appendChild(img);
   
@@ -21,7 +21,7 @@ for(let i=0; i<3; i++) {
   
   const songSpan = document.createElement('span');
   songSpan.className = 'song';
-  songSpan.textContent = 'On My Way';
+  songSpan.textContent = songs[i].author;
   insideDiv.appendChild(songSpan);
   
   const authorSpan = document.createElement('span');
