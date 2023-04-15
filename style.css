@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 19, 33);
+}
+
+
+.Alan img{
+
+    position: absolute;
+    right: 500px;
+    top: 0px;
+}
+
+#container{
+
+    background-color: rgb(17, 23, 39);
+    height: 100vh;
+    width: 50vh;
+}
