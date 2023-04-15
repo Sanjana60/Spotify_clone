@@ -31,23 +31,23 @@
     font-family: 'Poppins', sans-serif;
 }
 #container ul {
-    background-color: rgb(17, 23, 39);
+    /* background-color: rgb(17, 23, 39); */
     list-style-type: circle;
     color: 	white;
     position: absolute;
-    top: 480px;
+    top: 380px;
     left: 80px;
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Poppins', sans-serif;
 
   }
 
   .last {
-    background-color: rgb(17, 23, 39);
+    /* background-color: rgb(17, 23, 39); */
     list-style-type: circle;
     color: 	grey;
     position: absolute;
-    top: 250px;
+    top: 160px;
     left: 80px;
     font-size: 80px;
     font-family: 'Poppins', sans-serif;
