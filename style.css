@@ -87,3 +87,7 @@ li{
     overflow: hidden;
     white-space: nowrap;
  }
+
+ .part1 {
+    margin-bottom: 18px; 
+  }
