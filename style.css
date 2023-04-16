@@ -111,4 +111,25 @@ u {
     border-bottom: 3px solid aqua; 
   }
 
+  .section4{
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section4 h1{
+
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.section4 h6{
+
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+
+}
+
   
