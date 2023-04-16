@@ -137,7 +137,6 @@ u {
     padding-left: 20px;
     padding-top: 10px;
     display: flex;
-    flex-direction: row;
 }
 
 .section5 .first{
@@ -149,6 +148,20 @@ u {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    margin-right: 10px;
+}
+
+.section5 .second{
+
+    padding: 5px 45px;
+    border-radius: 25px;
+    background-color: rgb(12, 19, 33);
+    color: aqua;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-color: aqua;
+    margin-right: 10px;
 }
 
   
