@@ -149,6 +149,7 @@ u {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin-right: 10px;
+    border: none;
 }
 
 .section5 .second{
@@ -162,6 +163,7 @@ u {
     font-weight: 600;
     border-color: aqua;
     margin-right: 10px;
+    /* border: none; */
 }
 
 .section4 h3{
@@ -201,18 +203,6 @@ u {
 
     height: 145px;
 }
-.search{
-
-    padding-top: 20px;
-    position: absolute;
-    right: 250px;
-    border-radius: 25px;
-    color: #fff;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-    width: 300px;
-
-}
 
 .section7 {
     margin-right: 18px; 
@@ -222,6 +212,42 @@ u {
     font-weight: bold;
     font-size: 15px;
   }
+
+  .search-bar {
+    padding-left: 40px;
+    height: 30px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .search-bar::placeholder {
+    color: #fff;
+    opacity: 0.7;
+  }
+
+  .search-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-top: 20px;
+    position: relative;
+  }
+
+  .search-container i{
+
+    position: absolute;
+    left: 0px;
+    padding-left: 210px;
+    padding-top: 8px;
+  }
+
+  
+
+
 
 
   
