@@ -1,12 +1,12 @@
 const parentDiv = document.getElementById('section6');
 let movie = [
-  {'imgSrc':'images/7.jpg','songname': 'Agar Tum Saath Ho', 'songnameauthor': 'Tamashaa'},
-  {'imgSrc':'images/8.jpg','songname': 'Suna Hai', 'songnameauthor': 'Neha Kakkar'},
-  {'imgSrc':'images/9.jpg','songname': 'Dilbar', 'songnameauthor': 'Satyameva Jayate'},
-  {'imgSrc':'images/10.jpg','songname': 'Duniya', 'songnameauthor': 'Luka Chuppi'},
-  {'imgSrc':'images/11.jpg','songname': 'Lagdi Lahore Di', 'songnameauthor': 'Street Dancer 3D'},
-  {'imgSrc':'images/12.jpg','songname': 'Putt Jatt De', 'songnameauthor': 'Putt Jatt De'},
-  {'imgSrc':'images/13.jpg','songname': 'Baarishein', 'songnameauthor': 'Atif Aslam'},
+  {'imgSrcc':'images/7.jpg','songname': 'Agar Tum Saath Ho', 'songnameauthor': 'Tamashaa'},
+  {'imgSrcc':'images/8.jpg','songname': 'Suna Hai', 'songnameauthor': 'Neha Kakkar'},
+  {'imgSrcc':'images/9.jpg','songname': 'Dilbar', 'songnameauthor': 'Satyameva Jayate'},
+  {'imgSrcc':'images/10.jpg','songname': 'Duniya', 'songnameauthor': 'Luka Chuppi'},
+  {'imgSrcc':'images/11.jpg','songname': 'Lagdi Lahore Di', 'songnameauthor': 'Street Dancer 3D'},
+  {'imgSrcc':'images/12.jpg','songname': 'Putt Jatt De', 'songnameauthor': 'Putt Jatt De'},
+  {'imgSrcc':'images/13.jpg','songname': 'Baarishein', 'songnameauthor': 'Atif Aslam'},
 
 ];
 
@@ -15,7 +15,7 @@ for (let i = 0; i < 7; i++) {
   childDiv.className = 'section7';
 
   const img = document.createElement('img');
-  img.src = movie[i].imgSrc;
+  img.src = movie[i].imgSrcc;
   img.alt = movie[i].songname;
   childDiv.appendChild(img);
 
