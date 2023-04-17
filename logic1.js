@@ -1,4 +1,4 @@
-const parentDiv = document.getElementById('section6');
+const parentDiv2 = document.getElementById('section6');
 let movie = [
   {'imgSrcc':'images/7.jpg','songname': 'Agar Tum Saath Ho', 'songnameauthor': 'Tamashaa'},
   {'imgSrcc':'images/8.jpg','songname': 'Suna Hai', 'songnameauthor': 'Neha Kakkar'},
@@ -27,5 +27,5 @@ for (let i = 0; i < 7; i++) {
   h6.textContent = movie[i].songnameauthor;
   childDiv.appendChild(h6);
 
-  parentDiv.appendChild(childDiv);
+  parentDiv2.appendChild(childDiv);
 }
