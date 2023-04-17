@@ -129,8 +129,8 @@ for(let i=0; i<6; i++) {
 
 
     {'imgSrcc':'images/s10.jpg','altText':'Shawn Mendes'},
-    {'imgSrcc':'images/s3.jpg','altText':'Atif Aslam'},
-    {'imgSrcc':'images/s3.jpg','altText':'Atif Aslam'},
+    {'imgSrcc':'images/s11.jpg','altText':'Camila Cabello'},
+    {'imgSrcc':'images/s12.jpg','altText':'Louis Tomlison'},
   ];
   
   
