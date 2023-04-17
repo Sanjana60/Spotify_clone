@@ -112,6 +112,31 @@ for(let i=0; i<6; i++) {
   
 
 
+  const parentDiv3 = document.getElementById('section10');
+
+  let songauthorname = [
+    {'imgSrcc':'images/s1.jpg','altText':'Arijit Singh'},
+    {'imgSrcc':'images/8.jpg', 'altText':'Arijit Singh'},
+    {'imgSrcc':'images/9.jpg','altText':'Arijit Singh'},
+    {'imgSrcc':'images/10.jpg','altText':'Arijit Singh'},
+    {'imgSrcc':'images/11.jpg','altText':'Arijit Singh'},
+    {'imgSrcc':'images/12.jpg','altText':'Arijit Singh'},
+    {'imgSrcc':'images/13.jpg','altText':'Arijit Singh'},
+    {'imgSrcc':'images/13.jpg','altText':'Arijit Singh'},
+    {'imgSrcc':'images/13.jpg','altText':'Arijit Singh'},
+  ];
+  
+  for (let i = 0; i < 9; i++) {
+    const img = document.createElement('img');
+    img.src = songauthorname[i].imgSrcc;
+    img.alt = songauthorname[i].altText;
+    img.className = 'rounded';
+    img.style.padding = '10px';
+    parentDiv3.appendChild(img);
+  }
+  
+
+
 
 
   
