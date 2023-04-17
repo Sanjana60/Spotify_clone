@@ -87,10 +87,11 @@ for(let i=0; i<6; i++) {
     {'imgSrcc':'images/11.jpg','songname': 'Lagdi Lahore Di', 'songnameauthor': 'Street Dancer 3D'},
     {'imgSrcc':'images/12.jpg','songname': 'Putt Jatt De', 'songnameauthor': 'Putt Jatt De'},
     {'imgSrcc':'images/13.jpg','songname': 'Baarishein', 'songnameauthor': 'Atif Aslam'},
+    {'imgSrcc':'images/15.jpg','songname': 'Besharam Rang', 'songnameauthor': 'Shilpa Rao'},
   
   ];
   
-  for (let i = 0; i < 7; i++) {
+  for (let i = 0; i < movie.length; i++) {
     const childDiv = document.createElement('div');
     childDiv.className = 'section7';
   
