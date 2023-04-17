@@ -116,14 +116,14 @@ for(let i=0; i<6; i++) {
 
   let songauthorname = [
     {'imgSrcc':'images/s1.jpg','altText':'Arijit Singh'},
-    {'imgSrcc':'images/s2.jpg', 'altText':'Arijit Singh'},
-    {'imgSrcc':'images/s3.jpg','altText':'Arijit Singh'},
-    {'imgSrcc':'images/s4.jpg','altText':'Arijit Singh'},
-    {'imgSrcc':'images/11.jpg','altText':'Arijit Singh'},
-    {'imgSrcc':'images/12.jpg','altText':'Arijit Singh'},
-    {'imgSrcc':'images/13.jpg','altText':'Arijit Singh'},
-    {'imgSrcc':'images/13.jpg','altText':'Arijit Singh'},
-    {'imgSrcc':'images/13.jpg','altText':'Arijit Singh'},
+    {'imgSrcc':'images/s2.jpg', 'altText':'Alan Walker'},
+    {'imgSrcc':'images/s3.jpg','altText':'Atif Aslam'},
+    {'imgSrcc':'images/s4.jpg','altText':'Diljit Dosanjh'},
+    {'imgSrcc':'images/s5.jpg','altText':'Harry Styles'},
+    {'imgSrcc':'images/s6.jpg','altText':'Nial Horn'},
+    {'imgSrcc':'images/s7.jpg','altText':'Zayn Malik'},
+    {'imgSrcc':'images/s8.jpg','altText':'Liam Payne'},
+    {'imgSrcc':'images/s9.jpg','altText':'Taylor Swift'},
   ];
   
   for (let i = 0; i < 9; i++) {
