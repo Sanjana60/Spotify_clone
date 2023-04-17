@@ -180,6 +180,8 @@ u {
     padding-left: 20px;
     padding-top: 20px;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
 }
 
 .section6 h6{
@@ -212,6 +214,9 @@ u {
 
 }
 
+.section7 {
+    margin-right: 18px; 
+  }
 
 
   
