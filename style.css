@@ -164,4 +164,30 @@ u {
     margin-right: 10px;
 }
 
+.section4 h3{
+
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 30px;
+
+}
+
+.search{
+
+    padding-top: 20px;
+    position: absolute;
+    right: 250px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 300px;
+
+}
+
+
+
   
