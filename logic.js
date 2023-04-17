@@ -116,9 +116,9 @@ for(let i=0; i<6; i++) {
 
   let songauthorname = [
     {'imgSrcc':'images/s1.jpg','altText':'Arijit Singh'},
-    {'imgSrcc':'images/8.jpg', 'altText':'Arijit Singh'},
-    {'imgSrcc':'images/9.jpg','altText':'Arijit Singh'},
-    {'imgSrcc':'images/10.jpg','altText':'Arijit Singh'},
+    {'imgSrcc':'images/s2.jpg', 'altText':'Arijit Singh'},
+    {'imgSrcc':'images/s3.jpg','altText':'Arijit Singh'},
+    {'imgSrcc':'images/s4.jpg','altText':'Arijit Singh'},
     {'imgSrcc':'images/11.jpg','altText':'Arijit Singh'},
     {'imgSrcc':'images/12.jpg','altText':'Arijit Singh'},
     {'imgSrcc':'images/13.jpg','altText':'Arijit Singh'},
