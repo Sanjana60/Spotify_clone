@@ -115,6 +115,8 @@ for(let i=0; i<6; i++) {
   const parentDiv3 = document.getElementById('section10');
 
   let songauthorname = [
+    {'imgSrcc':'images/s9.jpg','altText':'Taylor Swift'},
+
     {'imgSrcc':'images/s1.jpg','altText':'Arijit Singh'},
     {'imgSrcc':'images/s2.jpg', 'altText':'Alan Walker'},
     {'imgSrcc':'images/s3.jpg','altText':'Atif Aslam'},
@@ -123,10 +125,16 @@ for(let i=0; i<6; i++) {
     {'imgSrcc':'images/s6.jpg','altText':'Nial Horn'},
     {'imgSrcc':'images/s7.jpg','altText':'Zayn Malik'},
     {'imgSrcc':'images/s8.jpg','altText':'Liam Payne'},
-    {'imgSrcc':'images/s9.jpg','altText':'Taylor Swift'},
+    
+
+
+    {'imgSrcc':'images/s10.jpg','altText':'Shawn Mendes'},
+    {'imgSrcc':'images/s3.jpg','altText':'Atif Aslam'},
+    {'imgSrcc':'images/s3.jpg','altText':'Atif Aslam'},
   ];
   
-  for (let i = 0; i < 9; i++) {
+  
+  for (let i = 0; i < songauthorname.length; i++) {
     const img = document.createElement('img');
     img.src = songauthorname[i].imgSrcc;
     img.alt = songauthorname[i].altText;

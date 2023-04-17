@@ -1,8 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     
 }
+
+/* CSS */
+.scrollable-container {
+    max-width: 100%; 
+    white-space: nowrap; 
+    overflow-x: scroll;
+    
+    background-color: rgb(12, 19, 33);
+  }
+  
+  
 
 .main{
 
@@ -242,9 +254,26 @@ u {
 
   img.rounded {
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 100px;
     height: 100px;
     width: 100px;
+  }
+
+  .section10{
+    display: flex;
+    flex-direction: row;
+    width: 77vw;
+    overflow-x: scroll;
+  }
+
+  .section10::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .section10 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
 
 
